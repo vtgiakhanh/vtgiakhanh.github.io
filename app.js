@@ -1,3 +1,4 @@
+//Muoicute if RJ
 //Global selections and variables
 const colorDivs = document.querySelectorAll(".color");
 const generateBtn = document.querySelector(".generate");
@@ -239,7 +240,7 @@ function savePalette(e) {
   });
 
   //Generate Object
-
+  //Muoicute if RJ
   let paletteNr;
   const paletteObjects = JSON.parse(localStorage.getItem("palettes"));
   if (paletteObjects) {
@@ -284,7 +285,7 @@ function savePalette(e) {
     });
     resetInputs();
   });
-
+  //Muoicute if RJ
   //Append to Library
   palette.appendChild(title);
   palette.appendChild(preview);
@@ -354,7 +355,7 @@ function getLocal() {
         });
         resetInputs();
       });
-
+  //Muoicute if RJ
       //Append to Library
       palette.appendChild(title);
       palette.appendChild(preview);
